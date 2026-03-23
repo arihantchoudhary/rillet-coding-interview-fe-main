@@ -1,0 +1,39 @@
+{
+	"name": "rillet-monorepo",
+	"version": "1.0.0",
+	"private": true,
+	"workspaces": [
+		"rillet-svelte",
+		"rillet-react",
+		"rillet-backend"
+	],
+	"scripts": {
+		"prepare": "husky",
+		"dev:backend": "npm run dev -w rillet-backend",
+		"dev:svelte": "npm run dev -w rillet-svelte",
+		"dev:react": "npm run dev -w rillet-react",
+		"build:backend": "npm run build -w rillet-backend",
+		"build:svelte": "npm run build -w rillet-svelte",
+		"build:react": "npm run build -w rillet-react",
+		"build:all": "npm run build:backend && npm run build:svelte && npm run build:react",
+		"test:backend": "npm run test -w rillet-backend",
+		"test:svelte": "npm run test -w rillet-svelte",
+		"test:react": "npm run test -w rillet-react",
+		"test:all": "npm run test:backend && npm run test:svelte && npm run test:react",
+		"lint": "npm run lint -w rillet-backend && npm run lint -w rillet-svelte && npm run lint -w rillet-react",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"husky": "^9.0.11",
+		"lint-staged": "^15.2.2"
+	},
+	"optionalDependencies": {
+		"lightningcss-darwin-arm64": "^1.30.2",
+		"lightningcss-darwin-x64": "^1.30.2",
+		"lightningcss-linux-arm64-gnu": "^1.30.2",
+		"lightningcss-linux-arm64-musl": "^1.30.2",
+		"lightningcss-linux-x64-gnu": "^1.30.2",
+		"lightningcss-linux-x64-musl": "^1.30.2",
+		"lightningcss-win32-x64-msvc": "^1.30.2"
+	}
+}

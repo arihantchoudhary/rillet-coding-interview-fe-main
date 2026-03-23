@@ -1,0 +1,686 @@
+[
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440001",
+		"name": "Amazon Web Services"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440002",
+		"name": "Microsoft Corporation"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440003",
+		"name": "Google LLC"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440004",
+		"name": "Apple Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440005",
+		"name": "Meta Platforms"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440006",
+		"name": "Netflix Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440007",
+		"name": "Tesla Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440008",
+		"name": "Oracle Corporation"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440009",
+		"name": "Salesforce Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440010",
+		"name": "Adobe Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440011",
+		"name": "IBM Corporation"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440012",
+		"name": "Intel Corporation"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440013",
+		"name": "Cisco Systems"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440014",
+		"name": "SAP SE"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440015",
+		"name": "Accenture plc"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440016",
+		"name": "Shopify Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440017",
+		"name": "Spotify Technology"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440018",
+		"name": "Square Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440019",
+		"name": "Stripe Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440020",
+		"name": "Twilio Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440021",
+		"name": "Zoom Video Communications"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440022",
+		"name": "Slack Technologies"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440023",
+		"name": "Atlassian Corporation"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440024",
+		"name": "Dropbox Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440025",
+		"name": "Box Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440026",
+		"name": "Snowflake Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440027",
+		"name": "Databricks Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440028",
+		"name": "MongoDB Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440029",
+		"name": "Redis Labs"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440030",
+		"name": "Elastic NV"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440031",
+		"name": "PayPal Holdings"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440032",
+		"name": "ServiceNow Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440033",
+		"name": "Workday Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440034",
+		"name": "DocuSign Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440035",
+		"name": "HubSpot Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440036",
+		"name": "Zendesk Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440037",
+		"name": "Okta Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440038",
+		"name": "Splunk Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440039",
+		"name": "Datadog Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440040",
+		"name": "GitLab Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440041",
+		"name": "GitHub Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440042",
+		"name": "Cloudflare Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440043",
+		"name": "DigitalOcean Holdings"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440044",
+		"name": "Linode LLC"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440045",
+		"name": "Heroku Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440046",
+		"name": "Vercel Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440047",
+		"name": "Netlify Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440131",
+		"name": "Bonpreu SA"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440048",
+		"name": "HashiCorp Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440049",
+		"name": "JetBrains s.r.o."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440050",
+		"name": "Figma Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440051",
+		"name": "Notion Labs Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440052",
+		"name": "Asana Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440053",
+		"name": "Monday.com Ltd."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440054",
+		"name": "Airtable Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440055",
+		"name": "Miro Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440056",
+		"name": "Canva Pty Ltd"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440057",
+		"name": "Unity Technologies"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440058",
+		"name": "Epic Games Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440059",
+		"name": "Roblox Corporation"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440060",
+		"name": "Discord Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440061",
+		"name": "Twitch Interactive"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440062",
+		"name": "DoorDash Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440063",
+		"name": "Uber Technologies"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440064",
+		"name": "Lyft Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440065",
+		"name": "Airbnb Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440066",
+		"name": "Instacart Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440067",
+		"name": "Coinbase Global"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440068",
+		"name": "Robinhood Markets"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440069",
+		"name": "Plaid Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440070",
+		"name": "Affirm Holdings"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440071",
+		"name": "Chime Financial"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440072",
+		"name": "Nubank Ltd."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440073",
+		"name": "SoFi Technologies"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440074",
+		"name": "Brex Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440075",
+		"name": "Flexport Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440076",
+		"name": "Gusto Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440077",
+		"name": "Rippling Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440078",
+		"name": "Lattice Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440079",
+		"name": "Greenhouse Software"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440080",
+		"name": "Lever Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440081",
+		"name": "Grifols SA"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440082",
+		"name": "CaixaBank SA"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440083",
+		"name": "Banco Sabadell"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440084",
+		"name": "Naturgy Energy Group"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440085",
+		"name": "Cellnex Telecom"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440086",
+		"name": "Fluidra SA"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440087",
+		"name": "Typeform SL"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440088",
+		"name": "Glovo App SL"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440089",
+		"name": "Wallapop SL"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440090",
+		"name": "TravelPerk SL"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440091",
+		"name": "Factorial HR SL"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440092",
+		"name": "Papernest SL"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440093",
+		"name": "Holaluz-Clidom SA"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440094",
+		"name": "Cabify España SL"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440095",
+		"name": "Letgo Technologies"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440096",
+		"name": "Red Points Solutions"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440097",
+		"name": "Social Point SL"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440098",
+		"name": "Scytl Election Technologies"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440099",
+		"name": "VMware Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440100",
+		"name": "Red Hat Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440101",
+		"name": "SUSE Software Solutions"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440102",
+		"name": "Canonical Ltd."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440103",
+		"name": "Puppet Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440104",
+		"name": "Chef Software Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440105",
+		"name": "Ansible Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440106",
+		"name": "Terraform Labs"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440107",
+		"name": "Supabase Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440108",
+		"name": "PlanetScale Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440109",
+		"name": "Cockroach Labs"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440110",
+		"name": "Timescale Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440111",
+		"name": "InfluxData Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440112",
+		"name": "Neo4j Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440113",
+		"name": "Couchbase Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440114",
+		"name": "MariaDB Corporation"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440115",
+		"name": "Percona LLC"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440116",
+		"name": "Confluent Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440117",
+		"name": "Segment Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440118",
+		"name": "Amplitude Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440119",
+		"name": "Mixpanel Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440120",
+		"name": "Heap Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440121",
+		"name": "LaunchDarkly Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440122",
+		"name": "Optimizely Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440123",
+		"name": "Split Software Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440124",
+		"name": "PagerDuty Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440125",
+		"name": "New Relic Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440126",
+		"name": "AppDynamics LLC"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440127",
+		"name": "Dynatrace Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440128",
+		"name": "Sentry Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440129",
+		"name": "LogRocket Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440130",
+		"name": "Bugsnag Inc."
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440132",
+		"name": "Amazon Retail"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440133",
+		"name": "Amazon Prime Video"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440134",
+		"name": "Microsoft Azure"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440135",
+		"name": "Microsoft Gaming"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440136",
+		"name": "Google Cloud Platform"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440137",
+		"name": "Google Workspace"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440138",
+		"name": "Apple Services"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440139",
+		"name": "Apple Retail"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440140",
+		"name": "Meta Quest"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440141",
+		"name": "Meta AI"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440142",
+		"name": "Netflix Studios"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440143",
+		"name": "Netflix Games"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440144",
+		"name": "Tesla Energy"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440145",
+		"name": "Tesla Motors"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440146",
+		"name": "Oracle Cloud Infrastructure"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440147",
+		"name": "Oracle NetSuite"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440148",
+		"name": "Salesforce Marketing Cloud"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440149",
+		"name": "Salesforce Service Cloud"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440150",
+		"name": "Adobe Creative Cloud"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440151",
+		"name": "Adobe Experience Cloud"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440152",
+		"name": "IBM Cloud"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440153",
+		"name": "IBM Watson"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440154",
+		"name": "Shopify Plus"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440155",
+		"name": "Shopify Logistics"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440156",
+		"name": "Spotify Premium"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440157",
+		"name": "Spotify for Artists"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440158",
+		"name": "Stripe Payments"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440159",
+		"name": "Stripe Connect"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440160",
+		"name": "Zoom Phone"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440161",
+		"name": "Zoom Rooms"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440162",
+		"name": "Atlassian Jira"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440163",
+		"name": "Atlassian Confluence"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440164",
+		"name": "Uber Eats"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440165",
+		"name": "Uber Freight"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440166",
+		"name": "Airbnb Experiences"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440167",
+		"name": "Airbnb Luxe"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440168",
+		"name": "GitLab Premium"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440169",
+		"name": "GitLab Ultimate"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440170",
+		"name": "GitHub Enterprise"
+	},
+	{
+		"id": "550e8400-e29b-41d4-a716-446655440171",
+		"name": "GitHub Actions"
+	}
+]
