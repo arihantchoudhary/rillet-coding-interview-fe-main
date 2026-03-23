@@ -3,6 +3,7 @@ import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import type { Customer } from '@/lib/invoice';
+import { API_BASE } from '@/lib/config';
 
 interface CustomerComboboxProps {
 	value: string;
@@ -13,15 +14,13 @@ interface CustomerComboboxProps {
 	error?: string;
 }
 
-const API_BASE = 'http://localhost:3000';
-
 export function CustomerCombobox({
 	value,
 	customerName,
 	onSelect,
 	onClear,
 	onBlur,
-	error,
+	error
 }: CustomerComboboxProps) {
 	const [query, setQuery] = useState(customerName);
 	const [customers, setCustomers] = useState<Customer[]>([]);
@@ -46,10 +45,9 @@ export function CustomerCombobox({
 		const timeoutId = setTimeout(async () => {
 			setIsLoading(true);
 			try {
-				const res = await fetch(
-					`${API_BASE}/customers?q=${encodeURIComponent(query)}`,
-					{ signal: controller.signal },
-				);
+				const res = await fetch(`${API_BASE}/customers?q=${encodeURIComponent(query)}`, {
+					signal: controller.signal
+				});
 				if (res.ok) {
 					const data: Customer[] = await res.json();
 					setCustomers(data);
@@ -120,13 +118,15 @@ export function CustomerCombobox({
 		}
 	}
 
-	const activeDescendant =
-		activeIndex >= 0 ? `customer-option-${activeIndex}` : undefined;
+	const activeDescendant = activeIndex >= 0 ? `customer-option-${activeIndex}` : undefined;
 
 	return (
 		<div ref={containerRef} className="space-y-2">
 			<Label htmlFor="customer">
-				Customer <span className="text-red-500" aria-hidden="true">*</span>
+				Customer{' '}
+				<span className="text-red-500" aria-hidden="true">
+					*
+				</span>
 			</Label>
 			<div className="relative">
 				<Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />

@@ -4,8 +4,7 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import type { InvoiceResponse } from '@/lib/invoice';
-
-const API_BASE = 'http://localhost:3000';
+import { API_BASE } from '@/lib/config';
 
 interface InvoiceListProps {
 	refreshKey: number;
