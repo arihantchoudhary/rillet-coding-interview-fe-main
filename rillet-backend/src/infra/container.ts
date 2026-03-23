@@ -6,6 +6,7 @@ import { InMemoryInvoiceRepository } from './InMemoryInvoiceRepository.js';
 export interface Container {
 	searchCustomers: SearchCustomers;
 	createInvoice: CreateInvoice;
+	invoiceRepository: InMemoryInvoiceRepository;
 }
 
 export function createContainer(): Container {
@@ -17,6 +18,7 @@ export function createContainer(): Container {
 
 	return {
 		searchCustomers,
-		createInvoice
+		createInvoice,
+		invoiceRepository
 	};
 }

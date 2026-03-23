@@ -5,13 +5,14 @@ import { Button } from '@/components/ui/button';
 import { TextField } from '@/components/TextField';
 import { NumberField } from '@/components/NumberField';
 import { CustomerCombobox } from '@/components/CustomerCombobox';
+import { InvoiceList } from '@/components/InvoiceList';
 import {
 	calculateTotal,
 	validateForm,
 	toInvoiceRequest,
 	type InvoiceFormData,
 	type FormErrors,
-	type Customer,
+	type Customer
 } from '@/lib/invoice';
 
 const API_BASE = 'http://localhost:3000';
@@ -23,22 +24,23 @@ const initialFormData: InvoiceFormData = {
 	productName: '',
 	price: '',
 	quantity: '',
-	discount: '',
+	discount: ''
 };
 
 function App() {
 	const [formData, setFormData] = useState<InvoiceFormData>(initialFormData);
 	const [errors, setErrors] = useState<FormErrors>({});
 	const [touched, setTouched] = useState<Record<string, boolean>>({});
-	const [submitStatus, setSubmitStatus] = useState<
-		'idle' | 'submitting' | 'success' | 'error'
-	>('idle');
+	const [submitStatus, setSubmitStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>(
+		'idle'
+	);
 	const [submitMessage, setSubmitMessage] = useState('');
+	const [refreshKey, setRefreshKey] = useState(0);
 
 	const total = calculateTotal(
 		Number(formData.price) || 0,
 		Number(formData.quantity) || 0,
-		Number(formData.discount) || 0,
+		Number(formData.discount) || 0
 	);
 
 	function updateField(field: keyof InvoiceFormData, value: string) {
@@ -50,7 +52,7 @@ function App() {
 			setErrors((prev) => ({
 				...prev,
 				[field === 'customerId' ? 'customer' : field]:
-					fieldErrors[field === 'customerId' ? 'customer' : (field as keyof FormErrors)],
+					fieldErrors[field === 'customerId' ? 'customer' : (field as keyof FormErrors)]
 			}));
 		}
 	}
@@ -61,7 +63,7 @@ function App() {
 		const errorKey = field === 'customerId' ? 'customer' : field;
 		setErrors((prev) => ({
 			...prev,
-			[errorKey]: fieldErrors[errorKey as keyof FormErrors],
+			[errorKey]: fieldErrors[errorKey as keyof FormErrors]
 		}));
 	}
 
@@ -69,7 +71,7 @@ function App() {
 		setFormData((prev) => ({
 			...prev,
 			customerId: customer.id,
-			customerName: customer.name,
+			customerName: customer.name
 		}));
 		setErrors((prev) => ({ ...prev, customer: undefined }));
 	}
@@ -78,7 +80,7 @@ function App() {
 		setFormData((prev) => ({
 			...prev,
 			customerId: '',
-			customerName: '',
+			customerName: ''
 		}));
 	}
 
@@ -93,7 +95,7 @@ function App() {
 			productName: true,
 			price: true,
 			quantity: true,
-			discount: true,
+			discount: true
 		});
 
 		if (Object.keys(formErrors).length > 0) {
@@ -108,7 +110,7 @@ function App() {
 			const res = await fetch(`${API_BASE}/invoices`, {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify(body),
+				body: JSON.stringify(body)
 			});
 
 			if (!res.ok) {
@@ -119,11 +121,12 @@ function App() {
 			const invoice = await res.json();
 			setSubmitStatus('success');
 			setSubmitMessage(
-				`Invoice ${invoice.invoiceCode} created! Total: $${invoice.total.toFixed(2)}`,
+				`Invoice ${invoice.invoiceCode} created! Total: $${invoice.total.toFixed(2)}`
 			);
 			setFormData(initialFormData);
 			setTouched({});
 			setErrors({});
+			setRefreshKey((k) => k + 1);
 		} catch (err) {
 			setSubmitStatus('error');
 			setSubmitMessage(err instanceof Error ? err.message : 'An error occurred');
@@ -131,7 +134,7 @@ function App() {
 	}
 
 	return (
-		<div className="flex min-h-screen items-center justify-center bg-gray-50 p-4">
+		<div className="flex min-h-screen flex-col items-center justify-start gap-6 bg-gray-50 p-4 py-12">
 			<Card className="w-full max-w-lg">
 				<CardHeader>
 					<CardTitle className="flex items-center gap-2">
@@ -245,16 +248,14 @@ function App() {
 					</CardContent>
 
 					<CardFooter>
-						<Button
-							type="submit"
-							disabled={submitStatus === 'submitting'}
-							className="w-full"
-						>
+						<Button type="submit" disabled={submitStatus === 'submitting'} className="w-full">
 							{submitStatus === 'submitting' ? 'Submitting...' : 'Submit'}
 						</Button>
 					</CardFooter>
 				</form>
 			</Card>
+
+			<InvoiceList refreshKey={refreshKey} />
 		</div>
 	);
 }

@@ -53,6 +53,16 @@ app.post('/invoices', async (req: Request, res: Response) => {
 	}
 });
 
+app.get('/invoices', (_req: Request, res: Response) => {
+	try {
+		const invoices = container.invoiceRepository.getAll();
+		res.json(invoices);
+	} catch (error) {
+		console.error('Error fetching invoices:', error);
+		res.status(500).json({ error: 'Internal server error' });
+	}
+});
+
 app.get('/health', (_req: Request, res: Response) => {
 	res.json({ status: 'ok' });
 });
